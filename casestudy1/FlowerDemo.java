@@ -35,6 +35,8 @@ public class FlowerDemo {
 		for(Map.Entry m : map.entrySet()){ 
 			System.out.println(m.getKey()+"\t\t"+m.getValue());  
 		}
+		System.out.println();
 		sc.close();
+		
 	}
 }
