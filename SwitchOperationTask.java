@@ -78,6 +78,7 @@ public class SwitchOperationTask {
 		default:System.out.println("Invalid");
 		}
 		System.out.println("------------------------------------");
+		
 		System.out.println("Do you want to continue \n"
 				+ "0)Yes \r\n"
 				+ "1)No ");

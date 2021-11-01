@@ -21,7 +21,7 @@ public class FlowerDemo {
 			 data.put("Kenya","Orchid");
 			 return data;
 		 } 
-		 data.put("No data","Found!!!!!");
+		 data.put("No data Found!!!!!","No data Found!!!!!");
 		 return data;
 	}
 	public static void main(String[] args) {
@@ -35,7 +35,6 @@ public class FlowerDemo {
 		for(Map.Entry m : map.entrySet()){ 
 			System.out.println(m.getKey()+"\t\t"+m.getValue());  
 		}
-		System.out.println();
 		sc.close();
 		
 	}
